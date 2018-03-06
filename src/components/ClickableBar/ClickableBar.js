@@ -5,8 +5,9 @@ class ClickableBar extends React.Component {
   render() {
     return (
       <div>
-        <h1>Victory Tutorial</h1>
-      </div>
+      <h3>Click Me</h3>
+      
+</div>
     );
   }
 }

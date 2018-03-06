@@ -37,11 +37,11 @@ class ExampleArc extends React.Component {
       render() {
         return (
           <div>
-            <svg viewBox="0 0 400 400" width="100%" height="100%">
+            <svg viewBox="0 0 400 400" width="30%" height="30%">
               <VictoryPie
                 standalone={false}
-                startAngle={-140}
-                endAngle={140}
+                startAngle={-150}
+                endAngle={150}
                 animate={{ duration: 1000 }}
                 width={400} height={400}
                 data={this.state.data}
